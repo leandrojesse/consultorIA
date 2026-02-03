@@ -94,7 +94,7 @@ else:
             # Configure via env vars (Traceloop SDK will read TRACELOOP_BASE_URL/HEADERS or API key)
             Traceloop.init(app_name="tl_app", 
                            disable_batch=True,
-                           api_endpoint="https://bvl51829.live.dynatrace.com/api/v2/otlp")
+                           api_endpoint="https://xxxxxxx.live.dynatrace.com/api/v2/otlp")
             # Import decorator only after successful init to avoid SDK warnings
             from traceloop.sdk.decorators import workflow
             TRACELOOP_AVAILABLE = True
